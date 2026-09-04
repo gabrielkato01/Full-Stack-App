@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "description": "teste de api para aula de cloud FNR",
+  "keywords": [
+    "api",
+    "node",
+    "fullstack"
+  ],
+  "homepage": "https://github.com/gabrielkato01/Full-Stack-App#readme",
+  "bugs": {
+    "url": "https://github.com/gabrielkato01/Full-Stack-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielkato01/Full-Stack-App.git"
+  },
+  "license": "ISC",
+  "author": "Gabriel Da Ponte Kato",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

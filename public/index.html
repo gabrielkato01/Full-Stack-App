@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste teste</h1>
+    <table>
+        <thead>
+            <tr></tr>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>IDADE</th>
+                <th>SEXO</th>
+            <tr></tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+<script>
+    function alunos(){    
+        fetch("https://potential-robot-qv4wxj6rqvpfxxvr-3000.app.github.dev/alunos")
+            .then((dados)=>{return dados.json()})
+            .then((alunos)=>{
+                console.log("Lista Alunos",alunos)
+                document.querySelector("tbody").innerHTML =
+                `
+                <tr>
+                    <td>${alunos[2].id}</td>
+                    <td>${alunos[2].nome}</td>
+                    <td>${alunos[2].idade}</td>
+                    <td>${alunos[2].sexo}</td>
+                </tr>
+                `
+    })
+}
+    alunos()
+</script>

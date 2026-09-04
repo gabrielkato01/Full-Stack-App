@@ -1,0 +1,37 @@
+{
+  "alunos": [
+    {
+      "nome": "Teste de patch",
+      "idade": "Teste de put",
+      "sexo": "Teste de put",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "nome": "Rafael Vilian",
+      "idade": "Suficiente",
+      "sexo": "Desconheço",
+      "id": 3
+    }
+  ],
+  "disciplinas": [
+    {
+      "nome": "teste de patch",
+      "id": 1
+    },
+    {
+      "nome": "Matemática Discreta",
+      "curso": "Ciências da Computação",
+      "periodo": "1° periodo",
+      "id": 2
+    },
+    {
+      "nome": "Banco de Dados",
+      "curso": "Ciências da Computação",
+      "periodo": "2° periodo",
+      "id": 3
+    }
+  ]
+}
